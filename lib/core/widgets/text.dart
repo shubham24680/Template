@@ -1,10 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 import 'package:templete/core/utils/colors.dart';
 
-class ABeeZee extends StatelessWidget {
-  const ABeeZee({
+class CustomText extends StatelessWidget {
+  const CustomText({
     super.key,
     required this.text,
     this.color,
@@ -21,7 +20,7 @@ class ABeeZee extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: GoogleFonts.aBeeZee(
+      style: TextStyle(
         color: color ?? black,
         fontSize: fontSize ?? 14,
         fontWeight: fontWeight ?? FontWeight.normal,
