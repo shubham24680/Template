@@ -1,0 +1,147 @@
+- name: device: android
+  color: fbca04
+  description: Issues specific to Android builds or behavior.
+
+- name: device: ios
+  color: 5319e7
+  description: Issues specific to iOS builds or behavior.
+
+- name: device: web
+  color: 1d76db
+  description: Issues specific to Flutter web builds or behavior.
+
+- name: device: desktop
+  color: c2e0c6
+  description: Issues specific to desktop platforms (Windows, Mac, Linux).
+
+- name: priority: high
+  color: e11d21
+  description: Critical issue that needs to be resolved ASAP.
+
+- name: priority: medium
+  color: fbca04
+  description: Important but not urgent.
+
+- name: priority: low
+  color: c5def5
+  description: Nice to have, minor or low impact.
+
+- name: frontend
+  color: 1d76db
+  description: Tasks related to UI and client-side code.
+
+- name: backend
+  color: 5319e7
+  description: Server-side logic, APIs, and cloud functions.
+
+- name: authentication
+  color: b60205
+  description: Tasks related to user sign-in, sign-up, and auth flows.
+
+- name: services
+  color: 006b75
+  description: 3rd-party APIs, Firebase, or microservices.
+
+- name: feature
+  color: 0e8a16
+  description: New feature or functionality.
+
+- name: bug
+  color: d73a4a
+  description: A defect that needs to be fixed.
+
+- name: optimize
+  color: f9d0c4
+  description: Performance improvements or refactoring.
+
+- name: minor improvement
+  color: c5def5
+  description: Small UI/UX tweaks or polish.
+
+- name: test
+  color: fbca04
+  description: Writing or fixing unit, widget, or integration tests.
+
+- name: documentation
+  color: 0075ca
+  description: Tasks for updating README, API docs, or code comments.
+
+- name: design
+  color: ffcc00
+  description: Design system, assets, or UI/UX updates.
+
+- name: deployment
+  color: 0052cc
+  description: CI/CD, build pipeline, or publishing to stores.
+
+- name: research
+  color: d4c5f9
+  description: Spikes, experiments, or investigations.
+
+- name: security
+  color: b60205
+  description: Tasks related to vulnerabilities or data protection.
+
+- name: help wanted
+  color: 008672
+  description: Need help or input from contributors.
+
+- name: good first issue
+  color: 7057ff
+  description: Easy tasks for onboarding new contributors.
+
+- name: blocker
+  color: b60205
+  description: This issue blocks progress on other work.
+
+- name: wontfix
+  color: eeeeee
+  description: This will not be addressed (out of scope).
+
+- name: screen: onboarding
+  color: fbca04
+  description: Onboarding screens, walkthroughs, or first-time setup.
+
+- name: screen: authentication
+  color: b60205
+  description: Login, signup, OTP, or password reset screens.
+
+- name: screen: home
+  color: 0e8a16
+  description: Home or dashboard screen.
+
+- name: screen: profile
+  color: 5319e7
+  description: User profile and edit screens.
+
+- name: screen: settings
+  color: 1d76db
+  description: App preferences, language, or privacy settings.
+
+- name: screen: notifications
+  color: 006b75
+  description: Notification center or push notification screens.
+
+- name: screen: feed
+  color: c2e0c6
+  description: Feed, timeline, or activity screens.
+
+- name: screen: search
+  color: fbca04
+  description: Search bar, filters, or search results screens.
+
+- name: screen: chat
+  color: d73a4a
+  description: Messaging or chat module.
+
+- name: screen: admin
+  color: 5319e7
+  description: Admin or back-office screens.
+
+- name: screen: error
+  color: f9d0c4
+  description: Empty states or error screens.
+
+- name: refactor
+  color: fef2c0
+  description: Code cleanup or structural improvements.
