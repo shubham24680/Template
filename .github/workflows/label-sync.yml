@@ -1,15 +1,27 @@
-name: Label Sync
+# File: .github/workflows/label-sync.yml
 
+name: 🏷️ Sync GitHub Labels
+
+# This workflow runs every time you push to main,
+# or you can manually trigger it via "Run workflow"
 on:
   push:
-    branches: [main]
+    branches:
+      - main
+  workflow_dispatch:
 
 jobs:
   sync-labels:
+    name: Sync labels from labels.yml
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
-      - uses: EndBug/label-sync@v2
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v4
+
+      - name: 🏷️ Sync labels with EndBug/label-sync
+        uses: EndBug/label-sync@v2
         with:
           config-file: .github/labels.yml
-          token: ${{ secrets.GITHUB_TOKEN }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
