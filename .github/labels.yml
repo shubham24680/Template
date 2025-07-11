@@ -1,4 +1,5 @@
-# 📱 Device-specific labels
+# .github/labels.yml
+
 - name: device: android
   color: fbca04
   description: Issues specific to Android builds or behavior.
@@ -15,7 +16,6 @@
   color: c2e0c6
   description: Issues specific to desktop platforms (Windows, Mac, Linux).
 
-# 🎯 Priority labels
 - name: priority: high
   color: e11d21
   description: Critical issue that needs to be resolved ASAP.
@@ -28,7 +28,6 @@
   color: c5def5
   description: Nice to have, minor or low impact.
 
-# 💻 General development labels
 - name: frontend
   color: 1d76db
   description: Tasks related to UI and client-side code.
@@ -101,7 +100,6 @@
   color: eeeeee
   description: This will not be addressed (out of scope).
 
-# 🗂️ Screen-wise labels
 - name: screen: onboarding
   color: fbca04
   description: Onboarding screens, walkthroughs, or first-time setup.
@@ -146,7 +144,6 @@
   color: f9d0c4
   description: Empty states or error screens.
 
-# ✅ General purpose
 - name: refactor
   color: fef2c0
   description: Code cleanup or structural improvements.
